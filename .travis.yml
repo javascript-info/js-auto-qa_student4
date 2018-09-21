@@ -25,7 +25,7 @@ before_deploy:
 env:
   global:
     - NODE_ENV=testing
-    - ARTIFACTS_BUCKET=js-tasks-ru
+    - ARTIFACTS_BUCKET=javascript-info
     - secure: >-
         s9Q/qGBbDuqobzdUJgd2Osl1FqO4+N0NkBgHVnAtBselDomEW+OTT/Gektrucc3h/C/Zyiw5VBF9XYv06vWehKGvQfmkkGlkWW1rrFBORK8QXooeL+hTNWp5AqSljKpZIv1jQ3Hp/nIFwTn0JKzKpjSX4y8XNQFjQawSCrzbIOOkaPUc51Yw6UjCtdlLQYk6EVit4l+/gqgsrTOX/g5uVG6PY+nypoSCRN6+q2OL7IS3QJkU2ekQ/m7vUQZQ1CYbtuKtfyBaertUIrF5zlTU2SD3NFfpFC/cEj28z90atOq0v4VSoah5OxoDm3K0DdpiAERGoWMA666bzvEDAHnDB5YE3QNbkPXJ++AlL6gpUHhUsuESijVbTzSnnM4U9gVSGgPMikRZkklqLX59o/7OMyBjKwF3KXt4XHxqdL/BLsouVV/CbKiFpxq+2n0l5H4HmYTNz+7tfQRBLIHHbprLfe9cpFMQv4bJAyyMIT/pCcUtEP0mMKwwhRWLp4pIr/fvnWyH8/as5lKSHI0M5Uf80lWKCKIoRqfthvGzJULKIBfnynDtt/SRUhmwk+ILXphYIkUAv0+koDQW54GVIvIBiQ6LmF8jTWCVYkziVXV0hROt1wzl62gr7r3MD6RT140WmAmclFH7lFPvvXqLxp02AnM5/JDAFIZFPr+aisEY3nE=
     - secure: >-
