@@ -26,7 +26,11 @@ env:
   global:
     - NODE_ENV=testing
     - ARTIFACTS_BUCKET=js-tasks-ru
+    - secure: >-
+        s9Q/qGBbDuqobzdUJgd2Osl1FqO4+N0NkBgHVnAtBselDomEW+OTT/Gektrucc3h/C/Zyiw5VBF9XYv06vWehKGvQfmkkGlkWW1rrFBORK8QXooeL+hTNWp5AqSljKpZIv1jQ3Hp/nIFwTn0JKzKpjSX4y8XNQFjQawSCrzbIOOkaPUc51Yw6UjCtdlLQYk6EVit4l+/gqgsrTOX/g5uVG6PY+nypoSCRN6+q2OL7IS3QJkU2ekQ/m7vUQZQ1CYbtuKtfyBaertUIrF5zlTU2SD3NFfpFC/cEj28z90atOq0v4VSoah5OxoDm3K0DdpiAERGoWMA666bzvEDAHnDB5YE3QNbkPXJ++AlL6gpUHhUsuESijVbTzSnnM4U9gVSGgPMikRZkklqLX59o/7OMyBjKwF3KXt4XHxqdL/BLsouVV/CbKiFpxq+2n0l5H4HmYTNz+7tfQRBLIHHbprLfe9cpFMQv4bJAyyMIT/pCcUtEP0mMKwwhRWLp4pIr/fvnWyH8/as5lKSHI0M5Uf80lWKCKIoRqfthvGzJULKIBfnynDtt/SRUhmwk+ILXphYIkUAv0+koDQW54GVIvIBiQ6LmF8jTWCVYkziVXV0hROt1wzl62gr7r3MD6RT140WmAmclFH7lFPvvXqLxp02AnM5/JDAFIZFPr+aisEY3nE=
+    - secure: >-
+        As+9dEhE9gjV+WCltd49ZGF3ALFLHqmmINHta8R6HjDTcbHcI9NQ9YYlNtPIPMfKwUV2A6BDIbWw6PUp9cve1mEzdyXGSTrOQmApF7UYQaC66svfQ/At0jPhPlyFzWDrLsII5+kC1FiLDqkwlNGm4bvC52XOqexJBWGkfKeGQODiy3u84Q34xneYCvVM1XCHcphXqhmUfM+gcoCvYTGRO3tUdo0LST7YC6few/mD4K8GZmNm0ZNCfGo3jaCMwjNEOjxpXen3Tr990UgtVlRY8XXJz9FUrkFtZ+GUccbv4ctnuPyD9gwOZmylIgmBkmI1KBmuEfLXGmNaDgGZFIeTbRE0JvYSxl3ShGME153jW96KAVcwXTZq5iXXvFf3WjVtgK2TWWVcytZRY/UNIictmH9EFi5r69UT+V6Y8NH5Jyyi88pFUHbVJZJiit3eBh3CsqNWByZv5mjAdMan4fqzOqqpgdVobPZ5aahTrxyP0QKt+Cte8eVz2p/s/rFFCyJe8T64ldeefXaM2890LDW2MI0LvzoJsbYxjyc40CHvdV+NqiijE5v1i1fe+lP4eRcZLSeyKz1hedHgwirxbAv5RmsI8siEfeL1afMOyIiS6kLgjnvIstDm73e6rc91VAmkX9pUBy9l/r2v5V7s7WmbFtWrRllj1IYvcb3MTwRodDc=
 script:
   - npm run test
 notifications:
-  webhooks: 'http://testhook.javascript.ru/automation/ci/build'
+  webhooks: 'http://learn.javascript.ru/automation/ci/build'
