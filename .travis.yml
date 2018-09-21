@@ -29,4 +29,4 @@ env:
 script:
   - npm run test
 notifications:
-  webhooks: 'http://proxmox.turtle-cloud.net/automation/ci/build'
+  webhooks: 'http://testhook.javascript.ru/automation/ci/build'
